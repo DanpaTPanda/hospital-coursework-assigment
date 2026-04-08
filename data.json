@@ -1,0 +1,299 @@
+{
+    "doctors": [
+        {
+            "name": "GG",
+            "speciality": "IGK",
+            "mobile": "KKK",
+            "patients": []
+        },
+        {
+            "name": "dd",
+            "speciality": "dd",
+            "mobile": "666",
+            "patients": []
+        },
+        {
+            "name": "dd",
+            "speciality": "idk",
+            "mobile": "123",
+            "patients": []
+        },
+        {
+            "name": "aa",
+            "speciality": "aa",
+            "mobile": "123",
+            "patients": [
+                "kk",
+                "mm"
+            ]
+        },
+        {
+            "name": "gg",
+            "speciality": "head",
+            "mobile": "8888",
+            "patients": []
+        },
+        {
+            "name": "kml",
+            "speciality": "mmmmmm",
+            "mobile": "ggg",
+            "patients": []
+        },
+        {
+            "name": null,
+            "speciality": "gg",
+            "mobile": "gg",
+            "patients": []
+        },
+        {
+            "name": "John Smith",
+            "speciality": "Internal Medicine",
+            "mobile": "07000000001",
+            "patients": []
+        },
+        {
+            "name": "Jane Doe",
+            "speciality": "Pediatrics",
+            "mobile": "07000000002",
+            "patients": []
+        },
+        {
+            "name": "bob",
+            "speciality": "idk",
+            "mobile": "4",
+            "patients": []
+        },
+        {
+            "name": "Alex Carter",
+            "speciality": "Cardiology",
+            "mobile": "07000000003",
+            "patients": []
+        },
+        {
+            "name": "Emily Davis",
+            "speciality": "Neurology",
+            "mobile": "07000000004",
+            "patients": []
+        },
+        {
+            "name": "Robert Wilson",
+            "speciality": "Orthopedics",
+            "mobile": "07000000005",
+            "patients": []
+        },
+        {
+            "name": "Linda Thompson",
+            "speciality": "Dermatology",
+            "mobile": "07000000006",
+            "patients": []
+        },
+        {
+            "name": "Chris Walker",
+            "speciality": "General Surgery",
+            "mobile": "07000000007",
+            "patients": []
+        },
+        {
+            "name": "Olivia Brown",
+            "speciality": "Radiology",
+            "mobile": "07000000008",
+            "patients": []
+        },
+        {
+            "name": "Daniel Martinez",
+            "speciality": "Oncology",
+            "mobile": "07000000009",
+            "patients": []
+        }
+    ],
+    "patients": [
+        {
+            "first_name": "kk",
+            "surname": "ll",
+            "age": 45,
+            "mobile": "321",
+            "address": "k6k6",
+            "symptoms": [
+                "idk"
+            ],
+            "doctor": null,
+            "appointments": {
+                "December": 1
+            }
+        },
+        {
+            "first_name": "mm",
+            "surname": "mm",
+            "age": 44,
+            "mobile": "456",
+            "address": "m4m4",
+            "symptoms": [
+                "idk"
+            ],
+            "doctor": null,
+            "appointments": {
+                "November": 1
+            }
+        },
+        {
+            "first_name": "ll",
+            "surname": "g",
+            "age": 100,
+            "mobile": "1000",
+            "address": "10dead",
+            "symptoms": [
+                "deeth"
+            ],
+            "doctor": null,
+            "appointments": {}
+        },
+        {
+            "first_name": "lisa",
+            "surname": "lida",
+            "age": 23,
+            "mobile": "22",
+            "address": "22",
+            "symptoms": [
+                "cold"
+            ],
+            "doctor": null,
+            "appointments": {}
+        },
+        {
+            "first_name": "emma",
+            "surname": "stone",
+            "age": 30,
+            "mobile": "07012312312",
+            "address": "1 apple road",
+            "symptoms": [
+                "flu"
+            ],
+            "doctor": null,
+            "appointments": {}
+        },
+        {
+            "first_name": "test2",
+            "surname": "user",
+            "age": 27,
+            "mobile": "07111111111",
+            "address": "2 orange way",
+            "symptoms": [
+                "sprained wrist"
+            ],
+            "doctor": null,
+            "appointments": {
+                "October": 1
+            }
+        },
+        {
+            "first_name": "Sara",
+            "surname": "Smith",
+            "age": 20,
+            "mobile": "07123456789",
+            "address": "12 Main St",
+            "symptoms": [],
+            "doctor": null,
+            "appointments": {}
+        },
+        {
+            "first_name": "Mike",
+            "surname": "Jones",
+            "age": 37,
+            "mobile": "07234567890",
+            "address": "34 Oak Rd",
+            "symptoms": [],
+            "doctor": null,
+            "appointments": {}
+        },
+        {
+            "first_name": "Liam",
+            "surname": "Taylor",
+            "age": 45,
+            "mobile": "07111222333",
+            "address": "56 Birch Ln",
+            "symptoms": [],
+            "doctor": null,
+            "appointments": {}
+        },
+        {
+            "first_name": "Emma",
+            "surname": "Johnson",
+            "age": 29,
+            "mobile": "07999888777",
+            "address": "78 Pine St",
+            "symptoms": [],
+            "doctor": null,
+            "appointments": {}
+        },
+        {
+            "first_name": "Noah",
+            "surname": "Williams",
+            "age": 62,
+            "mobile": "07812223344",
+            "address": "90 Maple Ave",
+            "symptoms": [],
+            "doctor": null,
+            "appointments": {}
+        },
+        {
+            "first_name": "Ava",
+            "surname": "Brown",
+            "age": 33,
+            "mobile": "07455667788",
+            "address": "21 Willow Crescent",
+            "symptoms": [],
+            "doctor": null,
+            "appointments": {}
+        },
+        {
+            "first_name": "Ethan",
+            "surname": "Davis",
+            "age": 51,
+            "mobile": "07733445566",
+            "address": "14 Cedar Grove",
+            "symptoms": [],
+            "doctor": null,
+            "appointments": {}
+        },
+        {
+            "first_name": "Mia",
+            "surname": "Miller",
+            "age": 18,
+            "mobile": "07290909090",
+            "address": "3 Riverbank Rd",
+            "symptoms": [],
+            "doctor": null,
+            "appointments": {}
+        },
+        {
+            "first_name": "Lucas",
+            "surname": "Wilson",
+            "age": 40,
+            "mobile": "07566778899",
+            "address": "8 Hilltop Drive",
+            "symptoms": [],
+            "doctor": null,
+            "appointments": {}
+        }
+    ],
+    "discharged": [
+        {
+            "first_name": "asd",
+            "surname": "dsa",
+            "age": 12,
+            "mobile": "123",
+            "address": "mm 123",
+            "symptoms": [
+                "idk"
+            ],
+            "doctor": "aa",
+            "appointments": {}
+        }
+    ],
+    "admin": {
+        "username": "mmm",
+        "password": "mmm123",
+        "name": "Admin",
+        "address": "Hospital"
+    }
+}
