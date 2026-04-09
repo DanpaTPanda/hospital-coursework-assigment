@@ -117,3 +117,36 @@ This project demonstrates my ability to:
 ## 📌 Notes
 * **Original Submission:** The `original-submission` folder contains the exact coursework submitted for grading.
 * **Improved Version:** The `improved-version` folder contains ongoing enhancements based on feedback.
+
+---
+
+## 📊 Final Grade & Feedback Analysis
+> **Module:** CMP4266 | **Mark:** 41/50 (**82%**) | **Date:** 28/01/2026
+
+### ✅ Grading Breakdown
+| Category | Criteria | Max Mark | Awarded |
+| :--- | :--- | :---: | :---: |
+| **Part A** | Design Documentation (Flowcharts & UML) | 10 | **10** |
+| **Part B** | System Development (Core Logic & GUI) | 30 | **21** |
+| **Part C** | Testing and Evaluation | 10 | **10** |
+| **TOTAL** | | **50** | **41** |
+
+### 🔍 Gap Analysis (The Path to 100%)
+The feedback highlighted specific areas where the original submission (v1) could be improved. I have addressed these in the **Improved Version (v2)**:
+
+* **Data Persistence (0/3 Marks in v1):** * *Issue:* Data did not save between sessions.
+    * *Fix:* Implemented `json` data persistence in `Admin_Improved.py` via `save_data()` and `load_data()`.
+* **Family Grouping (0/2 Marks in v1):** * *Issue:* Patients were not grouped by family names.
+    * *Fix:* Added `group_by_family()` function using a dictionary-mapping algorithm.
+* **Management Reporting (1/3 Marks in v1):** * *Issue:* Missing specific metrics like appointments per month.
+    * *Fix:* Integrated `get_management_report()` to calculate total doctors, patients per doctor, and monthly appointments.
+
+### 💬 Marker's Final Comment
+> *"Excellent effort. There are some functions in the test case report that are not implemented in the main file. Overall, well done!"*
+
+---
+
+## 📎 Original Documents
+For full transparency, the original academic documents are available here:
+* [Original Feedback Sheet (PDF)](./docs/Michael_Omotuyi_Feedback.pdf)
+* [Design Flowcharts (Word)](./docs/12_week_Flowchart.docx)
