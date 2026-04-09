@@ -157,4 +157,4 @@ This project demonstrates my ability to:
 ## 📂 Repository Contents
 * [**Improved Version**](./improved-version/) - Refactored code with 100% feature completion.
 * [**Original Submission**](./originalsubmission/) - The version marked at 82%.
-* [**Documentation Folder**](./docs/) - Contains flowcharts and the original feedback doc.
+* [**Documentation Folder**](./DOC+feedback/) - Contains brief info and the original feedback doc.
