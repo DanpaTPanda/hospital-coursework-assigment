@@ -16,13 +16,6 @@ from Admin_Improved import HospitalSystem
 from Doctor_Improved import Doctor
 from Patient_Improved import Patient
 
-# ---------------------------------------------------------
-# Project: Hospital Management System - Improved Version
-# Author:  Michael Omotuyi
-# Property of: Michael Omotuyi 
-# GitHub:  https://github.com/DanpaTPanda
-# ---------------------------------------------------------
-
 class LoginWindow:
     def __init__(self, system):
         self.sys = system
