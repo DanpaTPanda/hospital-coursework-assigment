@@ -5,6 +5,9 @@
 ### 📌 Overview
 > This project was developed as part of the **CMP4266 module**. It focuses on the end-to-end design, development, and rigorous testing of a professional **Hospital Management System**.
 
+<img width="783" height="423" alt="image" src="https://github.com/user-attachments/assets/e384f06e-6be1-4072-9209-52a8817f0b41" />
+
+
 ### ⚙️ Core Functionality
 The system provides a robust administrative suite, enabling users to manage **Doctor and Patient lifecycles** with precision. From assigning medical staff to overseeing daily hospital operations, every feature is delivered through a **functional, streamlined interface** designed for efficiency.
 
@@ -90,8 +93,6 @@ Grade received: 41/50 (82%)
 Hospital-Management-System/
 ├── original-submission/
 ├── improved-version/
-├── screenshots/
-├── docs/
 └── README.md
 ```
 
