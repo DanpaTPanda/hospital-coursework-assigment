@@ -120,33 +120,41 @@ This project demonstrates my ability to:
 
 ---
 
-## 📊 Final Grade & Feedback Analysis
-> **Module:** CMP4266 | **Mark:** 41/50 (**82%**) | **Date:** 28/01/2026
+## 📊 Detailed Feedback & Grading (Transparency)
+> **Student:** Michael Omotuyi | **Student ID:** 23152483  
+> **Module:** CMP4266 | **Final Mark:** 41/50 (**82%**)
 
-### ✅ Grading Breakdown
-| Category | Criteria | Max Mark | Awarded |
+### 🏆 Grading Breakdown
+| Section | Description | Max Mark | Awarded |
 | :--- | :--- | :---: | :---: |
-| **Part A** | Design Documentation (Flowcharts & UML) | 10 | **10** |
+| **Part A** | Design Documentation (UML & Flowcharts) | 10 | **10** |
 | **Part B** | System Development (Core Logic & GUI) | 30 | **21** |
 | **Part C** | Testing and Evaluation | 10 | **10** |
 | **TOTAL** | | **50** | **41** |
 
-### 🔍 Gap Analysis (The Path to 100%)
-The feedback highlighted specific areas where the original submission (v1) could be improved. I have addressed these in the **Improved Version (v2)**:
+---
 
-* **Data Persistence (0/3 Marks in v1):** * *Issue:* Data did not save between sessions.
-    * *Fix:* Implemented `json` data persistence in `Admin_Improved.py` via `save_data()` and `load_data()`.
-* **Family Grouping (0/2 Marks in v1):** * *Issue:* Patients were not grouped by family names.
-    * *Fix:* Added `group_by_family()` function using a dictionary-mapping algorithm.
-* **Management Reporting (1/3 Marks in v1):** * *Issue:* Missing specific metrics like appointments per month.
-    * *Fix:* Integrated `get_management_report()` to calculate total doctors, patients per doctor, and monthly appointments.
+## 🛠️ The Road to 100% (Post-Feedback Refactor)
+*The original submission lost 9 marks in Part B. Below is how I have resolved those specific issues in the **`improved-version`** to reach a professional standard.*
+
+### 1. Data Persistence (Missing in v1)
+* **Feedback:** "The hospital system should be able to store and load all patients’ data from and into a file."
+* **Improved Fix:** Integrated `json` library to automatically `save_data()` and `load_data()` from `hospital_data.json` upon every administrative action.
+
+### 2. Family Grouping (Missing in v1)
+* **Feedback:** "Patients of the same family are grouped together by Admin."
+* **Improved Fix:** Developed the `group_by_family()` algorithm in `Admin_Improved.py` which maps patients by surname into a structured dictionary for easy retrieval.
+
+### 3. Management Reporting (Partial in v1)
+* **Feedback:** "Missing total number of doctors, patients per doctor, and monthly appointments."
+* **Improved Fix:** Created a `get_management_report()` function that calculates these metrics and displays them via a `scrolledtext` dashboard.
 
 ### 💬 Marker's Final Comment
 > *"Excellent effort. There are some functions in the test case report that are not implemented in the main file. Overall, well done!"*
 
 ---
 
-## 📎 Original Documents
-For full transparency, the original academic documents are available here:
-* [Original Feedback Sheet (PDF)](./docs/Michael_Omotuyi_Feedback.pdf)
-* [Design Flowcharts (Word)](./docs/12_week_Flowchart.docx)
+## 📂 Repository Contents
+* [**Improved Version**](./improved-version/) - Refactored code with 100% feature completion.
+* [**Original Submission**](./original-submission/) - The version marked at 82%.
+* [**Documentation Folder**](./docs/) - Contains flowcharts and the original feedback doc.
