@@ -1,3 +1,14 @@
+# ---------------------------------------------------------
+# Project: Hospital Management System - Improved Version
+# Author:  Michael Omotuyi
+# Property of: Michael Omotuyi 
+# GitHub:  https://github.com/DanpaTPanda
+# ---------------------------------------------------------
+# This source code is the sole property of Michael Omotuyi.
+# Unauthorized copying or distribution of this file, 
+# via any medium, is strictly prohibited.
+# ---------------------------------------------------------
+
 class Patient:
     def __init__(self, first_name, surname, age, mobile, address, symptoms=None, doctor=None, appointments=None):
         self.first_name = first_name
