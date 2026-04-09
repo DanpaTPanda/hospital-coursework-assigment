@@ -1,0 +1,247 @@
+{
+    "doctors": [
+        {
+            "name": "Jesh",
+            "speciality": "Brain Surgery",
+            "mobile": "07123456789",
+            "patients": [
+                "Alice Thompson",
+                "Robert Chen",
+                "Sophia Williams"
+            ]
+        },
+        {
+            "name": "Sarah Miller",
+            "speciality": "Cardiology",
+            "mobile": "07987654321",
+            "patients": [
+                "James Wilson",
+                "Maria Garcia",
+                "Henry Wilson"
+            ]
+        },
+        {
+            "name": "David Okafor",
+            "speciality": "Pediatrics",
+            "mobile": "07445566778",
+            "patients": [
+                "Lily Evans",
+                "Leo Evans"
+            ]
+        },
+        {
+            "name": "Elena Rodriguez",
+            "speciality": "Neurology",
+            "mobile": "07888111222",
+            "patients": [
+                "Marcus Thorne",
+                "Isabella Thorne"
+            ]
+        },
+        {
+            "name": "Sam Kwok",
+            "speciality": "General Surgery",
+            "mobile": "07999333444",
+            "patients": [
+                "Oliver Smith"
+            ]
+        }
+    ],
+    "patients": [
+        {
+            "first_name": "Alice",
+            "surname": "Thompson",
+            "age": 28,
+            "mobile": "07111222333",
+            "address": "12 High Street, London",
+            "symptoms": [
+                "Headache",
+                "Dizziness"
+            ],
+            "doctor": "Jesh",
+            "appointments": {
+                "January": 2,
+                "February": 1
+            }
+        },
+        {
+            "first_name": "Robert",
+            "surname": "Chen",
+            "age": 45,
+            "mobile": "07222333444",
+            "address": "45 Oak Road, Manchester",
+            "symptoms": [
+                "Memory Loss"
+            ],
+            "doctor": "Jesh",
+            "appointments": {
+                "January": 1,
+                "March": 2
+            }
+        },
+        {
+            "first_name": "Sophia",
+            "surname": "Williams",
+            "age": 34,
+            "mobile": "07444555666",
+            "address": "12 Bluebell Way, London",
+            "symptoms": [
+                "Headache"
+            ],
+            "doctor": "Jesh",
+            "appointments": {
+                "February": 1,
+                "March": 1
+            }
+        },
+        {
+            "first_name": "James",
+            "surname": "Wilson",
+            "age": 52,
+            "mobile": "07333444555",
+            "address": "88 Pine Lane, Birmingham",
+            "symptoms": [
+                "Chest Pain",
+                "Shortness of breath"
+            ],
+            "doctor": "Sarah Miller",
+            "appointments": {
+                "February": 3
+            }
+        },
+        {
+            "first_name": "Maria",
+            "surname": "Garcia",
+            "age": 39,
+            "mobile": "07555666777",
+            "address": "21 Bridge Street, Leeds",
+            "symptoms": [
+                "Chest Pain"
+            ],
+            "doctor": "Sarah Miller",
+            "appointments": {
+                "January": 1,
+                "February": 1
+            }
+        },
+        {
+            "first_name": "Henry",
+            "surname": "Wilson",
+            "age": 55,
+            "mobile": "07333999000",
+            "address": "88 Pine Lane, Birmingham",
+            "symptoms": [
+                "Chest Pain"
+            ],
+            "doctor": "Sarah Miller",
+            "appointments": {
+                "March": 2
+            }
+        },
+        {
+            "first_name": "Lily",
+            "surname": "Evans",
+            "age": 7,
+            "mobile": "07666777888",
+            "address": "9 Rose Garden, Bristol",
+            "symptoms": [
+                "Fever",
+                "Cough"
+            ],
+            "doctor": "David Okafor",
+            "appointments": {
+                "March": 1
+            }
+        },
+        {
+            "first_name": "Leo",
+            "surname": "Evans",
+            "age": 5,
+            "mobile": "07666111222",
+            "address": "9 Rose Garden, Bristol",
+            "symptoms": [
+                "Fever"
+            ],
+            "doctor": "David Okafor",
+            "appointments": {
+                "February": 2
+            }
+        },
+        {
+            "first_name": "Marcus",
+            "surname": "Thorne",
+            "age": 42,
+            "mobile": "07888333444",
+            "address": "77 Raven Court, Sheffield",
+            "symptoms": [
+                "Numbness"
+            ],
+            "doctor": "Elena Rodriguez",
+            "appointments": {
+                "January": 3
+            }
+        },
+        {
+            "first_name": "Isabella",
+            "surname": "Thorne",
+            "age": 40,
+            "mobile": "07888555666",
+            "address": "77 Raven Court, Sheffield",
+            "symptoms": [
+                "Dizziness"
+            ],
+            "doctor": "Elena Rodriguez",
+            "appointments": {
+                "February": 1
+            }
+        },
+        {
+            "first_name": "Oliver",
+            "surname": "Smith",
+            "age": 29,
+            "mobile": "07999111000",
+            "address": "5 Kings Road, Brighton",
+            "symptoms": [
+                "Abdominal Pain"
+            ],
+            "doctor": "Sam Kwok",
+            "appointments": {
+                "March": 4
+            }
+        }
+    ],
+    "discharged": [
+        {
+            "first_name": "Samuel",
+            "surname": "Adams",
+            "age": 31,
+            "mobile": "07888999000",
+            "address": "101 Old Way, Liverpool",
+            "symptoms": [
+                "Broken Arm"
+            ],
+            "doctor": "None",
+            "appointments": {
+                "January": 4
+            }
+        },
+        {
+            "first_name": "Grace",
+            "surname": "Lee",
+            "age": 62,
+            "mobile": "07111000999",
+            "address": "33 Sunset Blvd, Cardiff",
+            "symptoms": [
+                "Influenza"
+            ],
+            "doctor": "Sarah Miller",
+            "appointments": {
+                "January": 2
+            }
+        }
+    ],
+    "admin": {
+        "name": "Michael Omotuyi",
+        "address": "Hospital HQ"
+    }
+}
