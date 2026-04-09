@@ -1,15 +1,26 @@
-# 🏥 Hospital Management System
+# 🏥 Hospital Management System by michael omotuyi
+
+![Python Version](https://img.shields.io/badge/python-3.10%2B-blue) 
+![License](https://img.shields.io/badge/license-MIT-green)
 
 ---
 
 ### 📌 Overview
-> This project was developed as part of the **CMP4266 module**. It focuses on the end-to-end design, development, and rigorous testing of a professional **Hospital Management System**.
+> This project was developed as part of the **CMP4266 module**. It focuses on the end-to-end design, development, and rigorous testing of a professional **Hospital Management System**. It demonstrates the evolution of a software product from an 82% academic submission to a 100% optimized architecture.
 
 <img width="783" height="423" alt="image" src="https://github.com/user-attachments/assets/e384f06e-6be1-4072-9209-52a8817f0b41" />
 
 
 ### ⚙️ Core Functionality
 The system provides a robust administrative suite, enabling users to manage **Doctor and Patient lifecycles** with precision. From assigning medical staff to overseeing daily hospital operations, every feature is delivered through a **functional, streamlined interface** designed for efficiency.
+
+---
+
+## 🛠️ Technologies Used
+* **Language:** Python 3.10+
+* **Frameworks/Tools:** (e.g., Spring Boot / Tkinter / MySQL)
+* **Data Handling:** JSON (Persistence) 
+* **Reporting:** Matplotlib (Analytic charts)
 
 ---
 ## 🎯 Features
@@ -27,11 +38,23 @@ The system provides a robust administrative suite, enabling users to manage **Do
 ### 💻 User Experience
 * **Graphical User Interface (GUI):** A clean, intuitive interface for non-technical users.
 
-📊 Assessment Result 
+---
 
-Grade received: 41/50 (82%) 
-
+## 📊 Detailed Feedback & Grading (Transparency)
+> **Student:** Michael Omotuyi | **Student ID:** 23152483  
+> **Module:** CMP4266 | **Final Mark:** 41/50 (**82%**)
+> 
 <img width="757" height="303" alt="image" src="https://github.com/user-attachments/assets/43009cf2-82fc-4fdb-9698-a4c783bf5050" />
+
+### 🏆 Grading Breakdown
+| Section | Description | Max Mark | Awarded |
+| :--- | :--- | :---: | :---: |
+| **Part A** | Design Documentation (UML & Flowcharts) | 10 | **10** |
+| **Part B** | System Development (Core Logic & GUI) | 30 | **21** |
+| **Part C** | Testing and Evaluation | 10 | **10** |
+| **TOTAL** | | **50** | **41** |
+
+---
 
 ## 📝 Feedback Summary
 
@@ -79,6 +102,28 @@ Grade received: 41/50 (82%)
 
 --- 
 
+## 📌 Notes
+* **Original Submission:** The `original-submission` folder contains the exact coursework submitted for grading.
+* **Improved Version:** The `improved-version` folder contains ongoing enhancements based on feedback.
+
+---
+
+## 🛠️ The Road to 100% (Post-Feedback Refactor)
+*The original submission lost 9 marks in Part B. Below is how I have resolved those specific issues in the **`improved-version`** to reach a professional standard.*
+
+### 1. Data Persistence (Missing in Original Submission)
+* **Feedback:** "The hospital system should be able to store and load all patients’ data from and into a file."
+* **Improved Fix:** Integrated `json` library to automatically `save_data()` and `load_data()` from `hospital_data.json` upon every administrative action.
+
+### 2. Family Grouping (Missing in Original Submission)
+* **Feedback:** "Patients of the same family are grouped together by Admin."
+* **Improved Fix:** Developed the `group_by_family()` algorithm in `Admin_Improved.py` which maps patients by surname into a structured dictionary for easy retrieval.
+
+### 3. Management Reporting (Missing in Original Submission)
+* **Feedback:** "Missing total number of doctors, patients per doctor, and monthly appointments."
+* **Improved Fix:** Created a `get_management_report()` function that calculates these metrics and displays them via a `scrolledtext` dashboard.
+
+
 ## 🚀 Improvements After Feedback
 
 * **Patient Grouping:** Implementing structured family/group associations for easier patient management.
@@ -91,13 +136,21 @@ Grade received: 41/50 (82%)
 
 ```text
 Hospital-Management-System/
-├── original-submission/
+├──BRIEF+feedback/
 ├── improved-version/
+├── originalsubmission/
+├── LICENSE
 └── README.md
 ```
 
-📎 Documentation 
-📄 Full detailed test cases and coursework files are available in the /docs folder. 
+---
+
+## 📂 Repository Contents
+* [**Documentation Folder**](./BRIEF+feedback/) - Contains brief info and the original feedback doc.
+* [**Improved Version**](./improved-version/) - Refactored code with 100% feature completion.
+* [**Original Submission**](./originalsubmission/) - The version marked at 82%.
+
+---
 
 ## 💡 Reflection & Learning
 This project demonstrates my ability to:
@@ -106,55 +159,5 @@ This project demonstrates my ability to:
 * **Apply structured testing** methodologies
 * **Analyse feedback** and improve software quality
 
----
 
-## 🛠️ Technologies Used
-* **Language:** (e.g., Python / Java / C#)
-* **Frameworks/Tools:** (e.g., Spring Boot / Tkinter / MySQL)
 
----
-
-## 📌 Notes
-* **Original Submission:** The `original-submission` folder contains the exact coursework submitted for grading.
-* **Improved Version:** The `improved-version` folder contains ongoing enhancements based on feedback.
-
----
-
-## 📊 Detailed Feedback & Grading (Transparency)
-> **Student:** Michael Omotuyi | **Student ID:** 23152483  
-> **Module:** CMP4266 | **Final Mark:** 41/50 (**82%**)
-
-### 🏆 Grading Breakdown
-| Section | Description | Max Mark | Awarded |
-| :--- | :--- | :---: | :---: |
-| **Part A** | Design Documentation (UML & Flowcharts) | 10 | **10** |
-| **Part B** | System Development (Core Logic & GUI) | 30 | **21** |
-| **Part C** | Testing and Evaluation | 10 | **10** |
-| **TOTAL** | | **50** | **41** |
-
----
-
-## 🛠️ The Road to 100% (Post-Feedback Refactor)
-*The original submission lost 9 marks in Part B. Below is how I have resolved those specific issues in the **`improved-version`** to reach a professional standard.*
-
-### 1. Data Persistence (Missing in v1)
-* **Feedback:** "The hospital system should be able to store and load all patients’ data from and into a file."
-* **Improved Fix:** Integrated `json` library to automatically `save_data()` and `load_data()` from `hospital_data.json` upon every administrative action.
-
-### 2. Family Grouping (Missing in v1)
-* **Feedback:** "Patients of the same family are grouped together by Admin."
-* **Improved Fix:** Developed the `group_by_family()` algorithm in `Admin_Improved.py` which maps patients by surname into a structured dictionary for easy retrieval.
-
-### 3. Management Reporting (Partial in v1)
-* **Feedback:** "Missing total number of doctors, patients per doctor, and monthly appointments."
-* **Improved Fix:** Created a `get_management_report()` function that calculates these metrics and displays them via a `scrolledtext` dashboard.
-
-### 💬 Marker's Final Comment
-> *"Excellent effort. There are some functions in the test case report that are not implemented in the main file. Overall, well done!"*
-
----
-
-## 📂 Repository Contents
-* [**Improved Version**](./improved-version/) - Refactored code with 100% feature completion.
-* [**Original Submission**](./originalsubmission/) - The version marked at 82%.
-* [**Documentation Folder**](./BRIEF+feedback/) - Contains brief info and the original feedback doc.
