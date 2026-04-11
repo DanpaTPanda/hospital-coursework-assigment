@@ -146,10 +146,8 @@ Hospital-Management-System/
   <summary><b>Click to see: How to run Original Version (82%)</b></summary>
   
   1. Navigate to `cd originalsubmission`
-  2. Run `python admin.py` as recommendation!
-  3. you could also run main.py but is weak and not meant as the main code
-  4. you could also run patient.py but its not the actual one i suggest to run
-  5. log in details - Use `mmm` / `mmm123` to log in.
+  2. Run `python admin.py`
+  3. log in details - Use `mmm` / `mmm123` to log in.
 </details>
 
 <details open>
