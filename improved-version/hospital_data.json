@@ -1,0 +1,220 @@
+{
+    "doctors": [
+        {
+            "name": "Dr. Smith",
+            "speciality": "Cardiology",
+            "mobile": "07123456789",
+            "patients": [
+                "Alice Brown",
+                "Kevin Brown",
+                "Charlie Davis"
+            ]
+        },
+        {
+            "name": "Dr. Jones",
+            "speciality": "Neurology",
+            "mobile": "07987654321",
+            "patients": [
+                "Bob Wilson",
+                "Diana Prince",
+                "Bruce Wayne"
+            ]
+        },
+        {
+            "name": "Dr. Taylor",
+            "speciality": "Pediatrics",
+            "mobile": "07888111222",
+            "patients": [
+                "Sophie Taylor",
+                "Jack Taylor"
+            ]
+        },
+        {
+            "name": "Dr. Miller",
+            "speciality": "General Practice",
+            "mobile": "07444123123",
+            "patients": [
+                "Peter Parker",
+                "Gwen Stacy"
+            ]
+        }
+    ],
+    "patients": [
+        {
+            "first_name": "Alice",
+            "surname": "Brown",
+            "age": 30,
+            "mobile": "07444555666",
+            "address": "12 High St",
+            "symptoms": [
+                "Chest Pain",
+                "Dizziness"
+            ],
+            "doctor": "Dr. Smith",
+            "appointments": {
+                "January": 2,
+                "February": 1,
+                "March": 4
+            }
+        },
+        {
+            "first_name": "Kevin",
+            "surname": "Brown",
+            "age": 35,
+            "mobile": "07444555777",
+            "address": "12 High St",
+            "symptoms": [
+                "Fatigue"
+            ],
+            "doctor": "Dr. Smith",
+            "appointments": {
+                "February": 2,
+                "March": 1
+            }
+        },
+        {
+            "first_name": "Bob",
+            "surname": "Wilson",
+            "age": 45,
+            "mobile": "07555666777",
+            "address": "45 Oak Lane",
+            "symptoms": [
+                "Headache",
+                "Nausea"
+            ],
+            "doctor": "Dr. Jones",
+            "appointments": {
+                "January": 1,
+                "March": 3,
+                "April": 2
+            }
+        },
+        {
+            "first_name": "Charlie",
+            "surname": "Davis",
+            "age": 22,
+            "mobile": "07666777888",
+            "address": "89 River Rd",
+            "symptoms": [
+                "Chest Pain",
+                "Fatigue"
+            ],
+            "doctor": "Dr. Smith",
+            "appointments": {
+                "February": 4,
+                "April": 5
+            }
+        },
+        {
+            "first_name": "Diana",
+            "surname": "Prince",
+            "age": 28,
+            "mobile": "07777888999",
+            "address": "10 The Avenue",
+            "symptoms": [
+                "Dizziness"
+            ],
+            "doctor": "Dr. Jones",
+            "appointments": {
+                "March": 1,
+                "April": 1
+            }
+        },
+        {
+            "first_name": "Bruce",
+            "surname": "Wayne",
+            "age": 40,
+            "mobile": "07111222333",
+            "address": "Wayne Manor",
+            "symptoms": [
+                "Insomnia",
+                "Headache"
+            ],
+            "doctor": "Dr. Jones",
+            "appointments": {
+                "January": 5,
+                "May": 2
+            }
+        },
+        {
+            "first_name": "Sophie",
+            "surname": "Taylor",
+            "age": 8,
+            "mobile": "07888111333",
+            "address": "7 Apple Way",
+            "symptoms": [
+                "Fever"
+            ],
+            "doctor": "Dr. Taylor",
+            "appointments": {
+                "April": 3,
+                "May": 1
+            }
+        },
+        {
+            "first_name": "Jack",
+            "surname": "Taylor",
+            "age": 5,
+            "mobile": "07888111444",
+            "address": "7 Apple Way",
+            "symptoms": [
+                "Fever",
+                "Cough"
+            ],
+            "doctor": "Dr. Taylor",
+            "appointments": {
+                "April": 2,
+                "May": 4
+            }
+        },
+        {
+            "first_name": "Peter",
+            "surname": "Parker",
+            "age": 18,
+            "mobile": "07999000111",
+            "address": "20 Ingram St",
+            "symptoms": [
+                "Nausea"
+            ],
+            "doctor": "Dr. Miller",
+            "appointments": {
+                "May": 2
+            }
+        },
+        {
+            "first_name": "Gwen",
+            "surname": "Stacy",
+            "age": 19,
+            "mobile": "07999000222",
+            "address": "21 Ingram St",
+            "symptoms": [
+                "Dizziness"
+            ],
+            "doctor": "Dr. Miller",
+            "appointments": {
+                "May": 3
+            }
+        }
+    ],
+    "discharged": [
+        {
+            "first_name": "Edward",
+            "surname": "Norton",
+            "age": 50,
+            "mobile": "07888999000",
+            "address": "52 Basement St",
+            "symptoms": [
+                "Insomnia"
+            ],
+            "doctor": "Dr. Smith",
+            "appointments": {
+                "January": 1
+            }
+        }
+       
+    ],
+    "admin": {
+        "name": "Michael Omotuyi",
+        "address": "Hospital HQ"
+    }
+}
